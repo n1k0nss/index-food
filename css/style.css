@@ -64,6 +64,12 @@ body{
     color: #000000;
 }
 
+.login:hover{
+    background-color: #F66A15;
+    color: #fff;
+    transition: all 0.2s linear;
+}
+
 .shopping-cart{
     width: 49px;
     height: 49px;
@@ -78,6 +84,11 @@ body{
     justify-content: center;
 
     margin-left: 30px;
+}
+
+.shopping-cart:hover{
+    background-color: #F65A00;
+    transition: background-color 0.2s linear;
 }
 
 .counter{
@@ -128,7 +139,7 @@ body{
 }
 
 .slide-content{
-    max-width: 500px;
+    max-width: 400px;
     position: relative;
 }
 .button-primary{
@@ -148,6 +159,10 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 23px;
+
+    cursor: pointer;
+
+    
 }
 
 .button-default{
@@ -652,4 +667,14 @@ body{
     .social-links{
         flex-direction: column;
     }
+
+    .slide{
+        padding: 30px;
+    }
 }
+
+.button:hover{
+    transform: scale(1.05);
+    transition: transform 0.1s linear;
+}
+
